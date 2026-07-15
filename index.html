@@ -122,7 +122,7 @@
     .flow-step span { font-size: 0.82rem; color: var(--muted); }
     .flow-arrow { align-self: center; color: rgba(255,255,255,0.5); font-size: 1.1rem; }
 
-    .plans { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+    .plans { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 1rem; max-width: 520px; }
     .plan {
       border-radius: 18px; padding: 1.2rem 1.25rem;
       border: 1px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.12);
@@ -131,20 +131,12 @@
     .plan-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #ffe8e8; margin-bottom: 0.35rem; }
     .plan h3 { font-size: 1.15rem; margin-bottom: 0.2rem; }
     .plan-sub { font-size: 0.88rem; color: var(--muted); margin-bottom: 0.55rem; }
-    .plan-strike { font-size: 0.85rem; color: rgba(255,255,255,0.5); text-decoration: line-through; margin-bottom: 0.1rem; }
     .plan-price { font-family: Outfit; font-size: 2.35rem; font-weight: 800; line-height: 1; }
     .plan-price small { font-size: 0.95rem; font-weight: 600; color: var(--muted); }
     .plan-total { font-size: 0.88rem; color: var(--muted); margin-top: 0.4rem; }
     .plan ul { list-style: none; margin-top: 0.65rem; }
     .plan ul li { font-size: 0.88rem; color: var(--muted); padding: 0.2rem 0 0.2rem 1rem; position: relative; }
     .plan ul li::before { content: "·"; position: absolute; left: 0; color: #fff; font-weight: 700; }
-
-    .impl-box {
-      margin-top: 0.75rem; padding: 0.8rem 1rem; border-radius: 14px;
-      border: 1px dashed rgba(255,255,255,0.4); background: rgba(255,255,255,0.08);
-      font-size: 0.9rem; color: var(--muted);
-    }
-    .impl-box strong { color: #fff; }
     .cta-box {
       margin-top: 1rem; padding: 1.1rem 1.25rem; border-radius: 16px;
       border: 1px solid rgba(255,255,255,0.35); background: rgba(255,255,255,0.14);
@@ -335,52 +327,33 @@
       </div>
     </section>
 
-    <!-- 6 · INVESTIMENTO (valores + desconto especial só aqui) -->
+    <!-- 6 · INVESTIMENTO (valores só aqui) -->
     <section id="investimento" data-slide="6">
       <div class="inner glass">
-        <p class="eyebrow">Investimento · Condição de fechamento hoje</p>
-        <h2>Mesmo escopo.<br />Condição exclusiva para hoje.</h2>
+        <p class="eyebrow">Investimento · Válida até 16/07</p>
+        <h2>Pacote EXECUTAR<br />com implementação inclusa.</h2>
         <div class="gold-line"></div>
-        <div class="impl-box">
-          <strong>Implementação CRM + Site:</strong>
-          de <span style="text-decoration:line-through">R$ 6.850</span> (até 10×) →
-          <strong>R$ 3.900</strong> no fechamento de hoje ·
-          <strong>+ bônus Site One Page</strong>
-        </div>
         <div class="plans">
-          <article class="plan">
-            <div class="plan-label">Proposta padrão · Âncora</div>
-            <h3>EXECUTAR + Implementação</h3>
-            <p class="plan-sub">Valores sem a condição de hoje</p>
-            <div class="plan-price">R$ 8.000 <small>/mês</small></div>
-            <p class="plan-total">+ Impl. CRM e Site: R$ 6.850 (até 10×)</p>
-            <ul>
-              <li>Mesmo pacote das 6 frentes</li>
-              <li>Implementação CRM + Site em até 10×</li>
-              <li>Sem bônus de Site One Page</li>
-            </ul>
-          </article>
           <article class="plan featured">
-            <div class="plan-label">Recomendada · Só hoje · 15/07</div>
-            <h3>Fechamento hoje</h3>
-            <p class="plan-sub">Fee e implementação reduzidos</p>
-            <p class="plan-strike">Fee âncora: R$ 8.000/mês</p>
+            <div class="plan-label">Condição especial · Válida até 16/07</div>
+            <h3>Growth completo</h3>
+            <p class="plan-sub">6 frentes + CRM e Site One Page</p>
             <div class="plan-price">R$ 6.500 <small>/mês</small></div>
-            <p class="plan-total">+ Implementação: R$ 3.900 · Bônus Site One Page</p>
+            <p class="plan-total">+ Implementação CRM e Site: R$ 3.900 · Bônus Site One Page</p>
             <ul>
-              <li>Fee R$ 1.500 abaixo da âncora</li>
-              <li>Implementação R$ 2.950 abaixo (de R$ 6.850)</li>
+              <li>Growth, mídia, criativos, CRM e social</li>
+              <li>Implementação de CRM inclusa</li>
               <li>Bônus: Site One Page incluso</li>
-              <li>Mesmo escopo completo EXECUTAR</li>
+              <li>Kickoff em até 5 dias úteis após assinatura</li>
             </ul>
           </article>
         </div>
         <div class="cta-box">
           <h3>Próximo passo</h3>
           <p>
-            Para travar fee <strong>R$ 6.500</strong> + implementação <strong>R$ 3.900</strong> com
-            <strong>bônus de Site One Page</strong>, precisamos do <strong>OK formal + dados para contrato ainda hoje (15/07)</strong>.
-            Depois disso, volta a âncora: fee R$ 8.000 + implementação R$ 6.850 (até 10×).
+            Esta condição é válida até <strong>amanhã (16/07)</strong>.
+            Com o <strong>OK formal + dados para contrato</strong>, travamos fee <strong>R$ 6.500</strong> +
+            implementação <strong>R$ 3.900</strong> com <strong>bônus de Site One Page</strong>.
             Kickoff em até 5 dias úteis — o plano da Estruturação vira operação.
           </p>
         </div>
